@@ -1,7 +1,7 @@
 var xs = [];
 var os = [];
 var squares = [];
-
+var player = 0;
 for (var i = 0; i < 9; i++) {
   xs[i] = document.getElementsByClassName("x")[i];
 }
@@ -14,56 +14,91 @@ for (var i = 0; i < 9; i++) {
 }
 
 squares[0].addEventListener("click", () => {
-  xs[0].style.visibility = "visible";
-  os[0].style.visibility = "visible";
+  if (player % 2 == 0) {
+    xs[0].style.visibility = "visible";
+  } else {
+    os[0].style.visibility = "visible";
+  }
+  player++;
 });
 
 squares[1].addEventListener("click", () => {
-  xs[1].style.visibility = "visible";
-  os[1].style.visibility = "visible";
+  if (player % 2 == 0) {
+    xs[1].style.visibility = "visible";
+  } else {
+    os[1].style.visibility = "visible";
+  }
+  player++;
 });
 
 squares[2].addEventListener("click", () => {
-  xs[2].style.visibility = "visible";
-  os[2].style.visibility = "visible";
+  if (player % 2 == 0) {
+    xs[2].style.visibility = "visible";
+  } else {
+    os[2].style.visibility = "visible";
+  }
+  player++;
 });
 
 squares[3].addEventListener("click", () => {
-  xs[3].style.visibility = "visible";
-  os[3].style.visibility = "visible";
+  if (player % 2 == 0) {
+    xs[3].style.visibility = "visible";
+  } else {
+    os[3].style.visibility = "visible";
+  }
+  player++;
 });
 
 squares[4].addEventListener("click", () => {
-  xs[4].style.visibility = "visible";
-  os[4].style.visibility = "visible";
-});
-
-squares[4].addEventListener("click", () => {
-  xs[4].style.visibility = "visible";
-  os[4].style.visibility = "visible";
+  if (player % 2 == 0) {
+    xs[4].style.visibility = "visible";
+  } else {
+    os[4].style.visibility = "visible";
+  }
+  player++;
 });
 
 squares[5].addEventListener("click", () => {
-  xs[5].style.visibility = "visible";
-  os[5].style.visibility = "visible";
+  if (player % 2 == 0) {
+    xs[5].style.visibility = "visible";
+  } else {
+    os[5].style.visibility = "visible";
+  }
+  player++;
 });
 
 squares[6].addEventListener("click", () => {
-  xs[6].style.visibility = "visible";
-  os[6].style.visibility = "visible";
+  if (player % 2 == 0) {
+    xs[6].style.visibility = "visible";
+  } else {
+    os[6].style.visibility = "visible";
+  }
+  player++;
 });
 
 squares[7].addEventListener("click", () => {
-  xs[7].style.visibility = "visible";
-  os[7].style.visibility = "visible";
+  if (player % 2 == 0) {
+    xs[7].style.visibility = "visible";
+  } else {
+    os[7].style.visibility = "visible";
+  }
+  player++;
 });
 
 squares[8].addEventListener("click", () => {
-  xs[8].style.visibility = "visible";
-  os[8].style.visibility = "visible";
+  if (player % 2 == 0) {
+    xs[8].style.visibility = "visible";
+  } else {
+    os[8].style.visibility = "visible";
+  }
+  player++;
 });
 
 squares[9].addEventListener("click", () => {
-  xs[9].style.visibility = "visible";
-  os[9].style.visibility = "visible";
+  if (player % 2 == 0) {
+    xs[9].style.visibility = "visible";
+  } else {
+    os[9].style.visibility = "visible";
+  }
+  player++;
 });
