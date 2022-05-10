@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+  text-decoration: underline wavy;
+}
+span:nth-of-type(2n) {
+  color: blue;
+}
+span {
+  color: red;
+}
+
+.square:hover {
+  background-color: blue;
+}
+
+.square:active {
+  background-color: black;
+}
+
+.x {
+  visibility: hidden;
+}
+.o {
+  visibility: hidden;
+}
