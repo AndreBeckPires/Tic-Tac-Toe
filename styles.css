@@ -5,6 +5,11 @@ h1 {
 span:nth-of-type(2n) {
   color: blue;
 }
+
+div {
+  text-align: center;
+  font-size: 100px;
+}
 span {
   color: red;
 }
@@ -17,9 +22,6 @@ span {
   background-color: black;
 }
 
-.x {
-  visibility: hidden;
-}
-.o {
+.mark {
   visibility: hidden;
 }
