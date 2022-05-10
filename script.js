@@ -97,10 +97,10 @@ squares[6].addEventListener("click", () => {
 squares[7].addEventListener("click", () => {
   if (player % 2 == 0) {
     marks[7].innerHTML = "x";
-    marks[0].style.color = "red";
+    marks[7].style.color = "red";
   } else {
     marks[7].innerHTML = "o";
-    marks[0].style.color = "blue";
+    marks[7].style.color = "blue";
   }
   marks[7].style.visibility = "visible";
   player++;
@@ -109,10 +109,10 @@ squares[7].addEventListener("click", () => {
 squares[8].addEventListener("click", () => {
   if (player % 2 == 0) {
     marks[8].innerHTML = "x";
-    marks[0].style.color = "red";
+    marks[8].style.color = "red";
   } else {
     marks[8].innerHTML = "o";
-    marks[0].style.color = "blue";
+    marks[8].style.color = "blue";
   }
   marks[8].style.visibility = "visible";
   player++;
@@ -121,10 +121,10 @@ squares[8].addEventListener("click", () => {
 squares[9].addEventListener("click", () => {
   if (player % 2 == 0) {
     marks[9].innerHTML = "x";
-    marks[0].style.color = "red";
+    marks[9].style.color = "red";
   } else {
     marks[9].innerHTML = "o";
-    marks[0].style.color = "blue";
+    marks[9].style.color = "blue";
   }
   marks[9].style.visibility = "visible";
   player++;
