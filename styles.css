@@ -13,9 +13,12 @@ div {
 span {
   color: red;
 }
+#endgame {
+  visibility: hidden;
+}
 
 .square:hover {
-  background-color: blue;
+  background-color: gray;
 }
 
 .square:active {
