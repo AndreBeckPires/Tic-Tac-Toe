@@ -15,6 +15,7 @@ span {
 }
 #endgame {
   visibility: hidden;
+  color: blue;
 }
 
 .square:hover {

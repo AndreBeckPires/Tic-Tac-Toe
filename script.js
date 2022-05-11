@@ -149,30 +149,51 @@ squares[8].addEventListener("click", () => {
 
 function checkWinner() {
   if (marked[0] != 3 && marked[0] == marked[1] && marked[0] == marked[2]) {
+    if (marked[0] == 1) {
+      gg.style.color = "red";
+    }
     gg.style.visibility = "visible";
-    console.log("1");
   }
   if (marked[0] != 3 && marked[0] == marked[3] && marked[0] == marked[6]) {
     gg.style.visibility = "visible";
-    console.log("2");
+    if (marked[0] == 1) {
+      gg.style.color = "red";
+    }
   }
   if (marked[0] != 3 && marked[0] == marked[4] && marked[0] == marked[8]) {
     gg.style.visibility = "visible";
-    console.log("3");
+    if (marked[0] == 1) {
+      gg.style.color = "red";
+    }
   }
   if (marked[1] != 3 && marked[1] == marked[4] && marked[1] == marked[7]) {
     gg.style.visibility = "visible";
+    if (marked[1] == 1) {
+      gg.style.color = "red";
+    }
   }
   if (marked[2] != 3 && marked[2] == marked[4] && marked[2] == marked[6]) {
     gg.style.visibility = "visible";
+    if (marked[2] == 1) {
+      gg.style.color = "red";
+    }
   }
   if (marked[2] != 3 && marked[2] == marked[5] && marked[2] == marked[8]) {
     gg.style.visibility = "visible";
+    if (marked[2] == 1) {
+      gg.style.color = "red";
+    }
   }
   if (marked[3] != 3 && marked[3] == marked[4] && marked[3] == marked[5]) {
     gg.style.visibility = "visible";
+    if (marked[3] == 1) {
+      gg.style.color = "red";
+    }
   }
   if (marked[6] != 3 && marked[6] == marked[7] && marked[6] == marked[8]) {
     gg.style.visibility = "visible";
+    if (marked[6] == 1) {
+      gg.style.color = "red";
+    }
   }
 }
